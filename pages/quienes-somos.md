@@ -1,12 +1,16 @@
 ---
 layout: page
 show_meta: false
-title: "¿Quienes somos?"
-subheadline: "A Step-by-Step Guide"
-description: "This step-by-step guide helps you to customize Feeling Responsive to your needs."
+title: "¿Quiénes somos?"
+subheadline: ""
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+    image_fullwidth: "logo.png"
+    title: ""
+permalink: "/quienes-somos/"
+---
 
+
+#RICH IT Solutions
 
 RiCh IT Solution S.A. DE C.V. es una empresa que se distingue en el mercado por su alta calidad en el diseño de soluciones que involucran tecnologías de información y servicios de consultoría.
 
@@ -16,8 +20,8 @@ El mundo de las tecnologías de información se hace cada vez más complejo. Las
 
 La clave del éxito de RiCh IT es que todos sus ingenieros cuenta con el nivel de certificación de experto en las tecnologías que forman parte del portafolio.
 
-
-<a class="radius button small" href="{{ site.url }}/documentation/">Check out the documentation for all the tricks ›</a>
-
-
- [1]: {{ site.url }}/documentation/
+<!-- <ul> -->
+<!--     {% for post in site.categories.design %} -->
+<!--     <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li> -->
+<!--     {% endfor %} -->
+<!-- </ul> -->

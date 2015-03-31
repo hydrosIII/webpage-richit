@@ -13,7 +13,7 @@
 
             <p class="shadow-black">
               {{ site.description }}
-              <a href="{{ site.url }}/info/">{{ site.data.language.more }}</a>
+              <a href="{{ site.url }}/quienes-somos/">{{ site.data.language.more }}</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -24,7 +24,7 @@
                 <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
-              
+
               <ul class="no-bullet shadow-black">
               {% for service_item in site.data.services %}
                 {% if service_item.url contains 'http' %}
@@ -46,7 +46,7 @@
                 <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
-              
+
             <ul class="no-bullet shadow-black">
             {% for network_item in site.data.network %}
               {% if network_item.url contains 'http' %}
@@ -67,9 +67,9 @@
 
       <div id="subfooter">
         <nav class="row">
-          <section id="subfooter-left" class="b30 small-12 medium-6 columns">
+            <section id="subfooter-left" class="b30 small-10 medium-6 columns">
             <ul class="inline-list">
-              <li>Created with &hearts; by <a style="display:inline;" href="http://phlow.de/">Phlow</a> with <a style="display:inline;" href="http://jekyllrb.com/" target="_blank">Jekyll</a> using <a style="display:inline;" href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> </li>
+              <li>Creado con &hearts; gracias a <a style="display:inline;" href="http://jekyllrb.com/" target="_blank">Jekyll</a> usando <a style="display:inline;" href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> </li>
             </ul>
           </section>
 

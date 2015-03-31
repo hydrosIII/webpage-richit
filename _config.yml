@@ -8,25 +8,27 @@
 #                                                 /____/        
 #
 # Title of your website
-title: "Feeling Responsive"
+title: "Rich IT"
 
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "A Flexible Theme for Jekyll"
+slogan: "Soluciones integrales en Tecnología"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette."
+description: "»Rich It es una empresa de tencnología en la Ciudad de México, dedicada a brindar servicios integrales nuestros clientes"
 
 
 # This URL is the main adresse. Don't include a slash at the end.
-#
-url: "https://phlow.github.io/feeling-responsive"
-baseurl: ""
+#cambiarlo cuando se implemente en produccion
+
+url: "http://richit.com.mx"
+baseurl:
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+
+improve_content: 
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash.
@@ -34,7 +36,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-urlimg: "http://phlow.github.io/feeling-responsive/images/"
+urlimg: "/images/"
 
 
 # Logo size is 600x80 pixels
@@ -59,7 +61,7 @@ include: ['.htaccess']
 
 
 # The language setting is used in /includes/header.html for html-settings
-language: "en"
+language: "es"
 
 # Exclude these files from your production _site
 exclude:
@@ -149,9 +151,9 @@ msapplication_tilecolor:         "#334D5C"                                    # 
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
 og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
-og_locale:                          "en_EN"
+og_locale:                          "es_MX"
 og_type:                            "website"
-og_title:                           "Feeling Responsive – A Responsive Theme for Jekyll"
+og_title:                           "Rich IT – Soluciones integrales en tecnología"
 og_description:                     "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
 # og_url:                           ""
 # og_site_name:                     ""
